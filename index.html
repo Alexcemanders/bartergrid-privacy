@@ -10,6 +10,10 @@
   h1 { font-size: 1.8rem; } h2 { font-size: 1.2rem; margin-top: 2rem; }
   code { background: #f2f2f2; padding: 1px 5px; border-radius: 4px; }
   footer { margin-top: 3rem; font-size: 0.9rem; color: #666; }
+  #delete-account { background: #f7f7f7; border: 1px solid #ddd; border-radius: 10px;
+                     padding: 18px 20px; margin-top: 1rem; }
+  #delete-account h2 { margin-top: 0; }
+  #delete-account ol { padding-left: 1.2rem; }
 </style>
 </head>
 <body>
@@ -72,12 +76,37 @@ stored using PBKDF2 hashing, session tokens are stored in your device's secure
 keychain and expire automatically, and database connections are encrypted.</p>
 
 <h2>Data retention and deletion</h2>
-<p>We keep your account information for as long as your account exists. You can
-request deletion of your account and all associated data at any time by emailing
-<a href="mailto:jeralexasiye@gmail.com">jeralexasiye@gmail.com</a> from the
-contact associated with your account, or by using the in-app "Delete account"
-option where available. We will delete your data within 30 days of a verified
-request.</p>
+<p>We keep your account information for as long as your account exists.</p>
+
+<div id="delete-account">
+<h2>Delete your BarterGrid account</h2>
+<p>You can delete your BarterGrid account and all associated data at any time.
+Here's how:</p>
+<ol>
+  <li>Send an email to
+  <a href="mailto:jeralexasiye@gmail.com?subject=Delete%20my%20BarterGrid%20account">jeralexasiye@gmail.com</a>
+  from the email address you use, with the subject line
+  <strong>"Delete my BarterGrid account"</strong>.</li>
+  <li>Include your BarterGrid <strong>username</strong> (shown on your Profile
+  screen in the app) so we can locate your account.</li>
+  <li>We will verify the request and permanently delete your data within
+  <strong>30 days</strong>. You'll receive a confirmation email once this is
+  done.</li>
+</ol>
+
+<p><strong>What gets deleted:</strong> your username and profile (name, produce
+listings), your stored location, your PIN (hashed), your authentication tokens,
+and your trade history (proposals, meeting details, and notes) tied to your
+account.</p>
+<p><strong>What may be retained:</strong> trade records where you were the
+counterparty to another user's trade may be retained in de-identified form as
+part of that other user's trade history, since deleting your account does not
+delete data that belongs to someone else's records. No financial, health, or
+government-ID data is collected in the first place, so none is retained.</p>
+<p><strong>Retention period:</strong> account and profile data is deleted within
+30 days of a verified request; nothing is kept longer than that except the
+de-identified counterparty records described above.</p>
+</div>
 
 <h2>Children</h2>
 <p>BarterGrid is not directed to children under 13, and we do not knowingly collect
